@@ -2,6 +2,10 @@ canvas {
 	margin-top: 2%;
 	width: 500px;
 	height: 500px;
-	position: relative;
 	border: 2px dashed black;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
