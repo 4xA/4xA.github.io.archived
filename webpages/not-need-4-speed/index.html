@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Asa Abbad">
+		<meta name="description" content="A canvas game">
+		<title>(Need 4 Speed)</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/canvas-style.css">
+		<link rel="stylesheet" type="text/css" href="styles/wide-canvas-style.css">
+		<link rel="stylesheet" type="text/css" href="styles/full-screen-canvas-style.css">
+		</style>
+	</head>
+
+	<header>
+		<h1>
+			<a href="../../index.html">4xA.github.io</a>
+		</h1>
+	</header>
+
+	<body>
+		<main>
+			<section id="game-section">
+				<div id="stage" width="1000px" height="500px">
+					<canvas id="road-layer"									width="1000px" height="500px"> </canvas>
+					<canvas id="road-animation-layer"				width="1000px" height="500px"> </canvas>
+					<canvas id="landscape-layer"						width="1000px" height="500px"> </canvas>
+					<canvas id="landscape-animation-layer"	width="1000px" height="500px"> </canvas>
+					<canvas id="interior-layer"							width="1000px" height="500px"> </canvas>
+					<canvas id="game-layer"									width="1000px" height="500px"> </canvas>
+				</div>
+			</section>
+		</main>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="scripts/canvas-3.js"></script>
+		<script src="scripts/canvas-3-car.js"></script>
+		<script src="scripts/canvas-3-road.js"></script>
+		<script src="scripts/canvas-3-landscape.js"></script>
+		<script src="scripts/full-screen-stage.js"></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+html {
+	font-family: "Inconsolata", monospace;
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 3rem;
+}

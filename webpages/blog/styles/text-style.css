@@ -1,0 +1,22 @@
+h2 {
+	margin-top: 0;
+	font-size: 2.7rem;
+	margin-bottom: 0.8rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+}
+
+p {
+	font-size: 1.8rem;
+}
+
+address {
+	font-size: 1.8rem;
+}
+
+.titled-span {
+	border-bottom: 1px dashed grey;
+	cursor: help;
+}

@@ -1,0 +1,28 @@
+#stage {
+	width: 1000px;
+	height: 500px;
+}
+
+#game-layer {
+	z-index: 6;
+}
+
+#interior-layer {
+	z-index: 5;
+}
+
+#landscape-animation-layer {
+	z-index: 4:
+}
+
+#landscape-layer {
+	z-index: 3;
+}
+
+#road-animation-layer {
+	z-index: 2;
+}
+
+#road-layer {
+	z-index: 1;
+}
