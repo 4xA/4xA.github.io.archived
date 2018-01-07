@@ -1,53 +1,174 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asa Abbad</title>
+    <link rel="shortcut icon" type="image/jpg" href="./public/favico.png"/>
+    <link rel="stylesheet" href="./dist/main.cdfabbc9af24f16608d68d024c68f62d.css">
+    <link rel="stylesheet" href="./dist/fontawesome.ecd507b3125edc4d2a03aa6ae5d07da9.css">
+    <link rel="stylesheet" href="./dist/termynal.min.cf76d2664384d48fdf5de28e738713ae.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+    <script src="https://kit.fontawesome.com/61b38f6ad6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-gray-200 w-screen h-screen flex justify-center items-center terminal body--state-hidden text-xs md:text-base overflow-x-scroll">
+        <div id="termynal" class="h-screen w-5/6 md:h-5/6 md:h-3/4" data-termynal>
+        </div>
+    </div>
 
-<html lang="en-US">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="author" content="Asa Abbad">
-		<meta name="description" content="GitHub repositories showcase">
-		<title>4xA</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	</head>
+    <div class="content body--state-hidden">
+        <header class="p-6 w-full bg-gradient-to-r bg-oxford-blue from-transparent to-black font-serif platinum">
+            <h1 class="text-3xl mb-2">Asa Abbad <span class="italic orange-web">Portfolio</span></h1>
+            <p class="uppercase text-sm">
+                Software Engineer <span class="bold animate-ping">_</span>
+            </p>
+        </header>
+        <div class="absolute right-4 top-12 bg-white rounded shadow border p-2 w-64 invisible md:visible">
+            <img src="public/img/profile.jpg" alt="profile photo">
+        </div>
+        <div class="shadow border w-64 mx-auto my-4 md:hidden">
+            <img src="public/img/profile.jpg" alt="profile photo">
+        </div>
+        <article class="ml-2 md:ml-8">
+            <section class="md:w-2/3">
+                <h2 class="section-header"><span class="section-header-text">// About me</span></h2>
+                <p class="text-base ml-4 mb-6">
+                    I am a software engineering mage; I love writing clean code and finding the best and easiest solution for
+                    a technical problem.
+                </p>
+                <p class="text-base ml-4 mb-6">
+                    My strongest focus is maintaining a clean code base with correctness, optimization and scalability at its core.
+                </p>
+                <p class="text-base ml-4 mb-6">
+                    When I am not coding, I like to spend my time cooking, gaming or taking a walk in the park.
+                </p>
+            </section>
+            <section class="mt-12 md:w-2/3">
+                <h2 class="section-header"><span class="section-header-text">// Experience Timeline</span></h2>
+                <div class="grid grid-cols-2 my-4">
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="index.html">4xA</a>
+                    <!-- timeline entry right -->
+                    <div></div>
+                    <div class="pr-2 pl-8 border-l-2 border-green-700 relative">
+                        <h3 class="text-4xl black mb-1">Present</h3>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                    </div>
+                    <!-- timeline entry left -->
+                    <div class="pl-2 pr-8 relative text-right">
+                        <h3 class="text-4xl black mb-1">March 2022</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-red-700 px-1 uppercase">Software Engineer</span>
+                        </h4>
+                        <p class="text-base">
+                            @ 84.51˚
+                        </p>
+                        <p class="text-base text-encore">
+                            As a current employee at 84.51˚, I have been an active contributor to the BI enterprise solution, 84.51˚ Stratum, collaborating cross-teams in the active development and maintenance of Spring Boot microservices.<br><br>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+                            My main roles here include feature development, building and deploying new microservices, REST API endpoint development, performance monitoring and optimization through logs and traces, creating reusable libraries, developing GitHub action workflows to build and deploy apps to PCF, creating and testing reusable React components, developing E2E cypress tests, peer review and swagger documentation.<br><br>
+                            
+                            I have also had a chance to develop soft skills including participating in solutioning sessions, participating in design sprints, mentorship of university coop and leading agile ceremonies.
+                        </p>
+                        <p class="text-base">
+                            Java <span class="text-red-500">/</span> Spring Boot <span class="text-red-500">/</span> PCF <span class="text-red-500">/</span> Azure <span class="text-red-500">/</span> Angular
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
+                    </div>
+                    <div class="border-l-2 border-red-700"></div>
 
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-				<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			</ul>
+                    <!-- timeline entry right -->
+                    <div></div>
+                    <div class="pr-2 pl-8 border-l-2 border-yellow-400 relative">
+                        <h3 class="text-4xl black mb-1">August 2019</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-yellow-400 px-1 uppercase">Software Engineer</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Navitas Group
+                        </p>
+                        <p class="text-base text-encore">
+                            Built and maintained an application suite of food safety monolithic applications using the Laravel PHP framework, MySQL, a custom OAuth2 SSO, Vue.js and JQuery front ends, Jenkins for deployment automation, monitored application health and optimized performance through New Relic and collaborated in an agile kanban team methodology.
+                        </p>
+                        <p class="text-base">
+                            PHP <span class="text-red-500">/</span> Laravel <span class="text-red-500">/</span> Codeigniter <span class="text-red-500">/</span> JavaScript <span class="text-red-500">/</span> Vue.js <span class="text-red-500">/</span> Node.js <span class="text-red-500">/</span> UIKit
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                    </div>
 
-			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-				<li class="nav-item"><a class="nav-link" href="https://github.com/4xa"><img src="images/GitHub-Mark-Light-120px-plus.png" width="30" height="30"></a></li>
-			</ul>
-		</div>
-	</nav>
-	
-	<body>
-		<main>
-			<div class="jumbotron">
-				<h1 class="display-3">4xA Repositories Showcase</h1>
-			</div>
+                    <!-- timeline entry left -->
+                    <div class="pl-2 pr-8 relative text-right">
+                        <h3 class="text-4xl black mb-1">March 2019</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-blue-400 px-1 uppercase">Software Engineering Intern</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Atypon Systems
+                        </p>
+                        <p class="text-base text-encore">
+                            At Atypon Systems I had a chance to be mentored by skilled developers. This program tackled the fundamentals of clean code and production-ready applications, solidifying my understanding of Object-Oriented Programming (OOP) principles, the SOLID framework, software design patterns, Big O notation, and key development mantras like KISS, YAGNI, and DRY. I have also had an introduction to the different productivity tools used by developers to streamline application development. This experience equipped me with the essential tools and mindset to write efficient, maintainable, and scalable code and provided me with a solid software foundation to go forward.
+                        </p>
+                        <p class="text-base">
+                            OOP <span class="text-red-500">/</span> OOA&D <span class="text-red-500">/</span> SOLID <span class="text-red-500">/</span> KISS <span class="text-red-500">/</span> YAGNI <span class="text-red-500">/</span> DRY <span class="text-red-500">/</span> Java
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
+                    </div>
+                    <div class="border-l-2 border-blue-400"></div>
 
-			<div class="container">
-				<nav>
-					<ul class="nav flex-column">
-						<li class="nav-item"> <a class="nav-link" href="./webpages/blog/index.html">Example Blog Page</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="./webpages/not-need-4-speed/index.html">Not Need for Speed</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="./webpages/loading/index.html">A Boring Loading Screen</a> </li>
-					</ul>
-				</nav>
-			</div>
-		</main>
+                    <!-- timeline entry right -->
+                    <div></div>
+                    <div class="pr-2 pl-8 border-l-2 border-red-400 relative">
+                        <h3 class="text-4xl black mb-1">September 2014</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-red-400 px-1 uppercase">Bsc Student</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Jordan University Of Science and Technology
+                        </p>
+                        <p class="text-base text-encore">
+                            Bachelor of Science (BSc) in Computer Engineering with a GPA of 3.31
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-12">
+                <h2 class="section-header"><span class="section-header-text">// Technologies</span></h2>
+                <ul class="list-disc list-inside ml-8">
+                    <li>OOP / SOLID / DRY / YAGNI / KISS</li>
+                    <li>PHP / Laravel / Java / OSGI</li>
+                    <li>Vue / JQuery / React</li>
+                    <li>Tailwind / Bootstrap / Bulma / UIKit</li>
+                    <li>Livewire / Lighthouse / BEM</li>
+                    <li>Onion, MVC, Repository, Factories, Singleton, Observer ...</li>
+                    <li>Git</li>
+                    <li>SonarQube, PHPUnit / Docker / Composer / Redis / NPM / Yarn</li>
+                    <li>Bash Scripting / Basic Server Management</li>
+                    <li>InVision / Adobe Illustrator / Adobe Photoshop</li>
+                </ul>
+            </section>
+            <section class="mt-12">
+                <h2 class="section-header"><span class="section-header-text">// Contact Me</span></h2>
+                <p class="ml-4">
+                    Please feel free to drop me an e-mail at:
+                    <a class="text-blue-800" href="mailto:asa0abbad@gmail.com">asa0abbad@gmail.com</a>
+                </p>
+            </section>
+            <section class="mt-12">
+                <div class="text-5xl w-full text-center animate-bounce">
+                    <a href="#">
+                        <i class="fas fa-chevron-circle-up oxford-blue"></i>
+                    </a>
+                </div>
+            </section>
+        </article>
+        <footer class="text-center mb-12 text-faded text-xs mt-12">
+            <div>Favicon made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> <span class="text-red-500">/</span> <a class="text-blue-800" href="?showTerminal=true">I want to see terminal again!</a></div>
+        </footer>
+    </div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-	</body>
+    <script src="./dist/termynal.min.5034adbda7685d2ada6033a3383a6b84.js"></script>
+    <script src="./dist/main.min.e03504b7b3526969a18d122f49677289.js"></script>
+</body>
 </html>
