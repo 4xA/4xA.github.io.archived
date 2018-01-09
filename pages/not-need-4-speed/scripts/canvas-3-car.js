@@ -251,5 +251,5 @@ function Car(topSpeed, speed, acceleration) {
 
 	var backgroundCanvas	= document.getElementById('interior-layer');
 	var backgroundContext	= backgroundCanvas.getContext('2d');
-	this.drawCarBackground(backgroundCanvas, backgroundContext);
+	this.cabinImage.onload	= () => { this.drawCarBackground(backgroundCanvas, backgroundContext); };
 }

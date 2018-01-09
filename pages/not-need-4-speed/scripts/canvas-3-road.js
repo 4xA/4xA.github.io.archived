@@ -33,8 +33,8 @@ function Road (x, y, vy) {
 	/**********************
 	 * BACKGROUND GRAPHICS
 	 **********************/
-	this.roadImage		= new Image();
-	this.roadImage.src	= 'images/road.svg';
+	this.roadImage			= new Image();
+	this.roadImage.src		= 'images/road.svg';
 
 	this.drawRoad		= function(canvas, ctx) {
 		ctx.drawImage(this.roadImage, 0, 0);
@@ -42,5 +42,5 @@ function Road (x, y, vy) {
 
 	var backgroundCanvas	= document.getElementById('road-layer');
 	var backgroundContext	= backgroundCanvas.getContext('2d');
-	this.drawRoad(backgroundCanvas, backgroundContext);
+	this.roadImage.onload	= () => { this.drawRoad(backgroundCanvas, backgroundContext); };
 }
