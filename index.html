@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asa Abbad</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/61b38f6ad6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="p-6 w-full bg-gradient-to-r from-black to-gray-900 font-serif text-white">
+        <h1 class="text-3xl font-bold mb-2">Asa Abbad <span class="italic text-yellow-500">Portfolio</span></h5>
+        <p class="uppercase text-sm">
+            Web Developer <span class="text-red-500">|</span>
+            Software Engineer <span class="text-red-500">|</span> 
+            PHP Developer <span class="text-red-500">|</span>
+            Computer Engineer
+        </p>
+    </div>
+    <div class="absolute right-4 top-12 bg-white rounded shadow border p-2 w-64 invisible md:visible">
+        <img src="./img/profile.png" alt="profile photo">
+    </div>
+    <div class="shadow border w-64 mx-auto my-4 md:hidden">
+        <img src="./img/profile.png" alt="profile photo">
+    </div>
+    <article class="ml-2 md:ml-8">
+        <section class="md:w-2/3">
+            <h2 class="sticky z-10 top-0 mt-4 mb-2 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// About me</span></h2>
+            <p class="text-base text-gray-500 ml-4 mb-6">
+                My name is Asa Abbad and I have been developing PHP applications as a full-time job and as a passion. I have specialized in the past <span id="number_of_years"></span> years working with PHP / Laravel applications and I have learned along the way how to work on the front end with JQuery and later on Vue.js.
+            </p>
+            <a class="ml-16 px-4 py-2 rounded shadow bg-gradient-to-r from-yellow-300 to-yellow-400 hover:bg-gradient-to-l hover:from-yellow-500 hover:to-yellow-400 uppercase text-gray-800" href="./storage/asa_resume.pdf" target="__blank">Resume<i class="border-l border-gray-800 ml-2 pl-2 fas fa-download"></i></a>
+        </section>
+        <section class="mt-12 md:w-2/3">
+            <h2 class="sticky z-10 top-0 mt-4 mb-8 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// Experience Timeline</span></h2>
+            <div class="grid grid-cols-2 my-4">
+                <!-- timeline entry right -->
+                <div></div>
+                <div class="pr-2 pl-8 border-l-2 border-yellow-400 relative">
+                    <h3 class="text-4xl text-gray-700 mb-1">August 2019</h3>
+                    <h4 class="text-base text-black mb-1">
+                        <span class="bg-yellow-400 px-1 uppercase">Web Developer</span>
+                    </h4>
+                    <p class="text-base text-gray-800">
+                        @ Navitas Group, UK (remote)
+                    </p>
+                    <p class="text-base text-gray-500">
+                        I have collaborated with multinational teams based in different countries building and maintaining production-level web applications with substantial user bases and scalable architectures.
+                    </p>
+                    <p class="text-base text-gray-800">
+                        PHP <span class="text-red-500">/</span> Laravel <span class="text-red-500">/</span> Codeigniter <span class="text-red-500">/</span> JavaScript <span class="text-red-500">/</span> Vue.js <span class="text-red-500">/</span> Node.js <span class="text-red-500">/</span> UIKit
+                    </p>
+                    <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                </div>
+            
+                <!-- timeline entry left -->
+                <div class="pl-2 pr-8 relative text-right">
+                    <h3 class="text-4xl text-gray-700 mb-1">March 2019</h3>
+                    <h4 class="text-base text-black mb-1">
+                        <span class="bg-blue-400 px-1 uppercase">Software Engineering Intern</span>
+                    </h4>
+                    <p class="text-base text-gray-800">
+                        @ Atypon System, Amman, Jordan
+                    </p>
+                    <p class="text-base text-gray-500">
+                        During my internship at Atypon, I have trained on clean code and best practices along with learning design patterns and OOP.
+                    </p>
+                    <p class="text-base text-gray-800">
+                        OOP <span class="text-red-500">/</span> OOA&D <span class="text-red-500">/</span> SOLID <span class="text-red-500">/</span> KISS <span class="text-red-500">/</span> YAGNI <span class="text-red-500">/</span> DRY <span class="text-red-500">/</span> Java
+                    </p>
+                    <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
+                </div>
+                <div class="border-l-2 border-blue-400"></div>
+            
+                <!-- timeline entry right -->
+                <div></div>
+                <div class="pr-2 pl-8 border-l-2 border-red-400 relative">
+                    <h3 class="text-4xl text-gray-700 mb-1">September 2014</h3>
+                    <h4 class="text-base text-black mb-1">
+                        <span class="bg-red-400 px-1 uppercase">Bsc Student</span>
+                    </h4>
+                    <p class="text-base text-gray-800">
+                        @ Jordan University Of Science and Technology
+                    </p>
+                    <p class="text-base text-gray-500">
+                        Bachelor of Science (BSc) in Computer Engineering with a GPA of 3.31
+                    </p>
+                    <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <h2 class="sticky z-10 top-0 mt-4 mb-8 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// Technologies</span></h2>
+            <div class="grid grid-cols-6 gap-x-16 ml-8 mr-8">
+                <div class="flex">
+                    <img class="m-auto" src="./img/php.svg" alt="php" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/laravel.png" alt="laravel" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/codeigniter.png" alt="codeigniter" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/javascript.svg" alt="javascript" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/vue.svg" alt="vue" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/node.svg" alt="node" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/jquery.svg" alt="jquery" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/tailwindcss.svg" alt="tailwindcss" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/bootstrap.svg" alt="bootstrap" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/git.svg" alt="git" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/docker.svg" alt="docker" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/composer.svg" alt="composer" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/npm.svg" alt="npm" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/linux.svg" alt="linux" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/photoshop.svg" alt="photoshop" loading="lazy">
+                </div>
+                <div class="flex">
+                    <img class="m-auto" src="./img/illustrator.svg" alt="illustrator" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script>
+        let startDate = moment('2019-03-1', 'YYYY-MM-DD');
+        let endDate = moment();
+        let duration = moment.duration(endDate.diff(startDate))
+        document.getElementById('number_of_years').innerHTML = Math.ceil(duration.asYears());
+    </script>
+</body>
+</html>
