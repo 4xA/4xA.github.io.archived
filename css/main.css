@@ -1,9 +1,49 @@
 .timeline-circle-left {
-    left: -12.5px;
+    left: -11.5px;
     top: 15px;
 }
 
 .timeline-circle-right {
     right: -13.5px;
     top: 15px;
+}
+
+.black {
+    color: #000;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.oxford-blue {
+    color: #14213D;
+}
+
+.bg-oxford-blue {
+    background-color: #14213D;
+}
+
+.orange-web {
+    color: #FCA311;
+}
+
+.bg-orange-web {
+    background-color: #FCA311;
+}
+
+.platinum {
+    color: #E5E5E5;
+}
+
+.bg-platinum {
+    background-color: #E5E5E5;
+}
+
+.white {
+    color: #FFF;
+}
+
+.bg-white {
+    background-color: #FFF;
 }
