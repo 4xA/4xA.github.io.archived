@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asa Abbad</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://kit.fontawesome.com/61b38f6ad6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="p-6 w-full bg-gradient-to-r from-black to-gray-900 font-serif text-white">
-        <h1 class="text-3xl font-bold mb-2">Asa Abbad <span class="italic text-yellow-500">Portfolio</span></h5>
+        <h1 class="text-3xl font-bold mb-2">Asa Abbad <span class="italic text-yellow-500">Portfolio</span></h1>
         <p class="uppercase text-sm">
-            Software Engineer <span class="text-red-500">
+            Software Engineer <span class="bold animate-ping">_</span>
         </p>
     </div>
     <div class="absolute right-4 top-12 bg-white rounded shadow border p-2 w-64 invisible md:visible">
-        <img src="./img/profile.png" alt="profile photo">
+        <img src="./img/profile.jpeg" alt="profile photo">
     </div>
     <div class="shadow border w-64 mx-auto my-4 md:hidden">
-        <img src="./img/profile.png" alt="profile photo">
+        <img src="./img/profile.jpeg" alt="profile photo">
     </div>
     <article class="ml-2 md:ml-8">
         <section class="md:w-2/3">
             <h2 class="sticky z-10 top-0 mt-4 mb-2 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// About me</span></h2>
             <p class="text-base text-gray-500 ml-4 mb-6">
-                My name is Asa Abbad and I have been developing web applications as a full-time job and as a passion. I have worked in the past <span class="bg-gray-200 border-2" id="number_of_years"></span> years working with web technoloies with varying degrees of experience. I am best with PHP but I am expanding my knowledge to learn Java and Node. Tailwind is my go to css framework and I can do some Vue.js if I need to.
+                I am a software engineering mage; I love writing clean code and finding the best and easiest solution for
+                a technical problem.
+            </p>
+            <p class="text-base text-gray-500 ml-4 mb-6">
+                My strongest focus is maintaining a clean code base with correctness, optimization and scalability at its core.
+            </p>
+            <p class="text-base text-gray-500 ml-4 mb-6">
+                When I am not coding, I like to spend my time cooking, gaming or taking a walk in the park.
             </p>
         </section>
         <section class="mt-12 md:w-2/3">
@@ -42,8 +49,11 @@
                     <p class="text-base text-gray-800">
                         @ PricewaterhouseCoopers, Middle-east
                     </p>
+                    <p class="text-base text-gray-500">
+                        At PwC, I have worked on two projects for a major client. As an early joiner to the project, I had a major role in developing the underlining enterprise software architecture. I developed and maintained APIs and code structure. I had a major role in developing their authentication logic as well as integrating persistence logic into their applications.
+                    </p>
                     <p class="text-base text-gray-800">
-                        Java <span class="text-red-500">/</span> CMS <span class="text-red-500">/</span> AEM
+                        Java <span class="text-red-500">/</span> OSGI <span class="text-red-500">/</span> CMS <span class="text-red-500">/</span> AEM <span class="text-red-500">/</span> React
                     </p>
                     <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
                 </div>
@@ -60,14 +70,17 @@
                         @ Navitas Group, UK (remote)
                     </p>
                     <p class="text-base text-gray-500">
-                        I have collaborated with multinational teams based in different countries building and maintaining production-level web applications with substantial user bases and scalable architectures.
+                        My first full-time job was at Navitas where I had the chance to be part of a medium sized team of around ~7 developers where wedeveloped and maintained three major Navitas products.
+                    </p>
+                    <p class="text-base text-gray-500">
+                        Here I had a chance to work on production applications and see the challenges that arise in late stages of application development and ways to mitigate and improve the overall development experience.
                     </p>
                     <p class="text-base text-gray-800">
                         PHP <span class="text-red-500">/</span> Laravel <span class="text-red-500">/</span> Codeigniter <span class="text-red-500">/</span> JavaScript <span class="text-red-500">/</span> Vue.js <span class="text-red-500">/</span> Node.js <span class="text-red-500">/</span> UIKit
                     </p>
                     <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
                 </div>
-            
+
                 <!-- timeline entry left -->
                 <div class="pl-2 pr-8 relative text-right">
                     <h3 class="text-4xl text-gray-700 mb-1">March 2019</h3>
@@ -78,7 +91,10 @@
                         @ Atypon Systems, Amman, Jordan
                     </p>
                     <p class="text-base text-gray-500">
-                        During my internship at Atypon, I have trained on clean code and best practices along with learning design patterns and OOP.
+                        As an intern in Atypon Systems, I had a chance to learn from
+                        talented developers the basics of clean code and production-
+                        level applications. Here I had a boot camp for OOP, SOLID
+                        principles, Big O, KISS, YAGNI, DRY.
                     </p>
                     <p class="text-base text-gray-800">
                         OOP <span class="text-red-500">/</span> OOA&D <span class="text-red-500">/</span> SOLID <span class="text-red-500">/</span> KISS <span class="text-red-500">/</span> YAGNI <span class="text-red-500">/</span> DRY <span class="text-red-500">/</span> Java
@@ -86,7 +102,7 @@
                     <i class="absolute text-gray-800 border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
                 </div>
                 <div class="border-l-2 border-blue-400"></div>
-            
+
                 <!-- timeline entry right -->
                 <div></div>
                 <div class="pr-2 pl-8 border-l-2 border-red-400 relative">
@@ -106,70 +122,26 @@
         </section>
         <section class="mt-12">
             <h2 class="sticky z-10 top-0 mt-4 mb-8 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// Technologies</span></h2>
-            <div class="grid grid-cols-2 md:grid-cols-6 gap-x-16 mx-24">
-                <div class="flex">
-                    <img class="m-auto" src="./img/php.svg" alt="php" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/laravel.png" alt="laravel" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/codeigniter.png" alt="codeigniter" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/javascript.svg" alt="javascript" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/vue.png" alt="vue" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/node.png" alt="node" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/jquery.png" alt="jquery" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/tailwindcss.svg" alt="tailwindcss" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/bootstrap.svg" alt="bootstrap" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/git.png" alt="git" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/docker.png" alt="docker" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/composer.svg" alt="composer" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/npm.png" alt="npm" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/linux.png" alt="linux" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/photoshop.svg" alt="photoshop" loading="lazy">
-                </div>
-                <div class="flex">
-                    <img class="m-auto" src="./img/illustrator.png" alt="illustrator" loading="lazy">
-                </div>
-            </div>
+            <ul class="list-disc list-inside ml-4">
+                <li>OOP / SOLID / DRY / YAGNI / KISS</li>
+                <li>PHP / Laravel / Java / OSGI</li>
+                <li>Vue / JQuery / React</li>
+                <li>Tailwind / Bootstrap / Bulma / UIKit</li>
+                <li>Livewire / Lighthouse / BEM</li>
+                <li>Onion, MVC, Repository, Factories, Singleton, Observer ...</li>
+                <li>Git</li>
+                <li>SonarQube, PHPUnit / Docker / Composer / Redis / NPM / Yarn</li>
+                <li>Bash Scripting / Basic Server Management</li>
+                <li>InVision / Adobe Illustrator / Adobe Photoshop</li>
+            </ul>
         </section>
         <section class="mt-12 mb-40">
-            <p class="w-full text-center bold text-9xl">
-                ...
+            <h2 class="sticky z-10 top-0 mt-4 mb-8 text-3xl text-purple-400 uppercase italic"><span class="px-2 bg-gray-900">// Contact Me</span></h2>
+            <p class="ml-4">
+                Please feel free to drop me an e-mail at:
+                <a class="text-blue-800" href="mailto:asa0abbad@gmail.com">asa0abbad@gmail.com</a>
             </p>
         </section>
     </article>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script>
-        let startDate = moment('2019-03-1', 'YYYY-MM-DD');
-        let endDate = moment();
-        let duration = moment.duration(endDate.diff(startDate))
-        document.getElementById('number_of_years').innerHTML = duration.asYears();
-    </script>
 </body>
 </html>
