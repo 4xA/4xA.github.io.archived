@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm install && npx tailwindcss -i ./src/input.css -o ./dist/main.css && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css dist/fontawesome.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
     "node-version-assets": "^1.2.2",
     "tailwindcss": "^3.0.7",
     "underscore": ">=1.12.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
   }
 }
