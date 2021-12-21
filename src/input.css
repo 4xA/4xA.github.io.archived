@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .section-header {
+        @apply sticky z-10 top-0 mt-4 mb-2 text-3xl platinum uppercase italic;
+    }
+    .section-header-text {
+        @apply px-2 bg-oxford-blue;
+    }
+    .text-encore {
+        @apply text-gray-500;
+    }
+}
+
 .timeline-circle-left {
     left: -11.5px;
     top: 15px;

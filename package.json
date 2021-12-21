@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npx tailwindcss -i ./src/input.css -o ./dist/main.css && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css dist/fontawesome.css",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/main.css && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css dist/fontawesome.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
