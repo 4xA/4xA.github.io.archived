@@ -1,7 +1,8 @@
 var Version = require("node-version-assets");
 var versionInstance = new Version({
     assets: [
-        'dist/main.css'
+        'dist/main.css',
+        'dist/fontawesome.css'
     ],
     grepFiles: [
         './index.html'
