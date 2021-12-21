@@ -531,6 +531,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 @-webkit-keyframes ping {
   75%, 100% {
     transform: scale(2);

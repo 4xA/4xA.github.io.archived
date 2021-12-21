@@ -4,7 +4,7 @@
 
 @layer components {
     .section-header {
-        @apply sticky z-10 top-0 mt-4 mb-2 text-3xl platinum uppercase italic;
+        @apply sticky z-10 top-0 mt-4 mb-6 text-3xl platinum uppercase italic;
     }
     .section-header-text {
         @apply px-2 bg-oxford-blue;
