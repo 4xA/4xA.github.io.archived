@@ -752,9 +752,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.\!text-xs {
-  font-size: 0.75rem !important;
-  line-height: 1rem !important;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-3xl {
@@ -780,11 +780,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .uppercase {
@@ -901,5 +896,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
