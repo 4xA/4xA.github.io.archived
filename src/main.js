@@ -1,5 +1,8 @@
 function doOnce(callback) {
-    if (!document.cookie.split('; ').find(row => row.startsWith('isTerminalVisible'))) {
+    if (
+        !document.cookie.split('; ').find(row => row.startsWith('isTerminalVisible'))
+        || window.location.search.includes('showTerminal=true')
+    ) {
         document.cookie = "isTerminalVisible=false; max-age=86400; SameSite=None;";
         callback();
         return;
