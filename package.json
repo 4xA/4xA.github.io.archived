@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/main.css && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css dist/fontawesome.css",
+    "build": "uglifyjs-folder ./src -eo ./dist && css-minify -f ./src/termynal.css -o ./dist && npx tailwindcss -i ./src/input.css -o ./dist/main.css && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css dist/fontawesome.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,8 @@
     "underscore": ">=1.12.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "css-minify": "^2.0.0",
+    "uglifyjs-folder": "^3.0.0"
   }
 }

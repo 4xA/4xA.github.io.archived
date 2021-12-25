@@ -6,153 +6,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asa Abbad</title>
     <link rel="shortcut icon" type="image/jpg" href="./public/favico.png"/>
-    <link rel="stylesheet" href="./dist/main.25130f31d4830735d06b48def45c9660.css">
-    <link rel="stylesheet" href="./dist/fontawesome.ecd507b3125edc4d2a03aa6ae5d07da9.css">
+    <link rel="stylesheet" href="./dist/main.css">
+    <link rel="stylesheet" href="./dist/fontawesome.css">
+    <link rel="stylesheet" href="./dist/termynal.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
     <script src="https://kit.fontawesome.com/61b38f6ad6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="p-6 w-full bg-gradient-to-r bg-oxford-blue from-transparent to-black font-serif platinum">
-        <h1 class="text-3xl mb-2">Asa Abbad <span class="italic orange-web">Portfolio</span></h1>
-        <p class="uppercase text-sm">
-            Software Engineer <span class="bold animate-ping">_</span>
-        </p>
+    <div class="bg-gray-200 w-screen h-screen flex justify-center items-center body--state-visible !text-xs overflow-x-scroll">
+        <div id="termynal" class="h-screen w-5/6 md:h-5/6 md:h-3/4" data-termynal>
+        </div>
     </div>
-    <div class="absolute right-4 top-12 bg-white rounded shadow border p-2 w-64 invisible md:visible">
-        <img src="public/img/profile.jpeg" alt="profile photo">
+
+    <div class="body body--state-hidden">
+        <header class="p-6 w-full bg-gradient-to-r bg-oxford-blue from-transparent to-black font-serif platinum">
+            <h1 class="text-3xl mb-2">Asa Abbad <span class="italic orange-web">Portfolio</span></h1>
+            <p class="uppercase text-sm">
+                Software Engineer <span class="bold animate-ping">_</span>
+            </p>
+        </header>
+        <div class="absolute right-4 top-12 bg-white rounded shadow border p-2 w-64 invisible md:visible">
+            <img src="public/img/profile.jpeg" alt="profile photo">
+        </div>
+        <div class="shadow border w-64 mx-auto my-4 md:hidden">
+            <img src="public/img/profile.jpeg" alt="profile photo">
+        </div>
+        <article class="ml-2 md:ml-8">
+            <section class="md:w-2/3">
+                <h2 class="section-header"><span class="section-header-text">// About me</span></h2>
+                <p class="text-base ml-4 mb-6">
+                    I am a software engineering mage; I love writing clean code and finding the best and easiest solution for
+                    a technical problem.
+                </p>
+                <p class="text-base ml-4 mb-6">
+                    My strongest focus is maintaining a clean code base with correctness, optimization and scalability at its core.
+                </p>
+                <p class="text-base ml-4 mb-6">
+                    When I am not coding, I like to spend my time cooking, gaming or taking a walk in the park.
+                </p>
+            </section>
+            <section class="mt-12 md:w-2/3">
+                <h2 class="section-header"><span class="section-header-text">// Experience Timeline</span></h2>
+                <div class="grid grid-cols-2 my-4">
+
+                    <!-- timeline entry left -->
+                    <div class="pl-2 pr-8 relative text-right">
+                        <h3 class="text-4xl black mb-1">May 2021</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-red-700 px-1 uppercase">Software Engineer</span>
+                        </h4>
+                        <p class="text-base">
+                            @ PricewaterhouseCoopers, Middle-east
+                        </p>
+                        <p class="text-base text-encore">
+                            At PwC, I have worked on two projects for a major client. As an early joiner to the project, I had a major role in developing the underlining enterprise software architecture. I developed and maintained APIs and code structure. I had a major role in developing their authentication logic as well as integrating persistence logic into their applications.
+                        </p>
+                        <p class="text-base">
+                            Java <span class="text-red-500">/</span> OSGI <span class="text-red-500">/</span> CMS <span class="text-red-500">/</span> AEM <span class="text-red-500">/</span> React
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
+                    </div>
+                    <div class="border-l-2 border-red-700"></div>
+
+                    <!-- timeline entry right -->
+                    <div></div>
+                    <div class="pr-2 pl-8 border-l-2 border-yellow-400 relative">
+                        <h3 class="text-4xl black mb-1">August 2019</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-yellow-400 px-1 uppercase">Web Developer</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Navitas Group, UK (remote)
+                        </p>
+                        <p class="text-base text-encore">
+                            My first full-time job was at Navitas where I had the chance to be part of a medium-sized team of around ~7 developers where we developed and maintained three major Navitas products.
+                        </p>
+                        <p class="text-base text-gray-500">
+                            Here I had a chance to work on production applications and see the challenges that arise in late stages of application development and ways to mitigate and improve the overall development experience.
+                        </p>
+                        <p class="text-base">
+                            PHP <span class="text-red-500">/</span> Laravel <span class="text-red-500">/</span> Codeigniter <span class="text-red-500">/</span> JavaScript <span class="text-red-500">/</span> Vue.js <span class="text-red-500">/</span> Node.js <span class="text-red-500">/</span> UIKit
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                    </div>
+
+                    <!-- timeline entry left -->
+                    <div class="pl-2 pr-8 relative text-right">
+                        <h3 class="text-4xl black mb-1">March 2019</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-blue-400 px-1 uppercase">Software Engineering Intern</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Atypon Systems, Amman, Jordan
+                        </p>
+                        <p class="text-base text-encore">
+                            As an intern in Atypon Systems, I had a chance to learn from
+                            talented developers the basics of clean code and production-
+                            level applications. Here I had a boot camp for OOP, SOLID
+                            principles, Big O, KISS, YAGNI, DRY.
+                        </p>
+                        <p class="text-base">
+                            OOP <span class="text-red-500">/</span> OOA&D <span class="text-red-500">/</span> SOLID <span class="text-red-500">/</span> KISS <span class="text-red-500">/</span> YAGNI <span class="text-red-500">/</span> DRY <span class="text-red-500">/</span> Java
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
+                    </div>
+                    <div class="border-l-2 border-blue-400"></div>
+
+                    <!-- timeline entry right -->
+                    <div></div>
+                    <div class="pr-2 pl-8 border-l-2 border-red-400 relative">
+                        <h3 class="text-4xl black mb-1">September 2014</h3>
+                        <h4 class="text-base text-black mb-1">
+                            <span class="bg-red-400 px-1 uppercase">Bsc Student</span>
+                        </h4>
+                        <p class="text-base">
+                            @ Jordan University Of Science and Technology
+                        </p>
+                        <p class="text-base text-encore">
+                            Bachelor of Science (BSc) in Computer Engineering with a GPA of 3.31
+                        </p>
+                        <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-12">
+                <h2 class="section-header"><span class="section-header-text">// Technologies</span></h2>
+                <ul class="list-disc list-inside ml-8">
+                    <li>OOP / SOLID / DRY / YAGNI / KISS</li>
+                    <li>PHP / Laravel / Java / OSGI</li>
+                    <li>Vue / JQuery / React</li>
+                    <li>Tailwind / Bootstrap / Bulma / UIKit</li>
+                    <li>Livewire / Lighthouse / BEM</li>
+                    <li>Onion, MVC, Repository, Factories, Singleton, Observer ...</li>
+                    <li>Git</li>
+                    <li>SonarQube, PHPUnit / Docker / Composer / Redis / NPM / Yarn</li>
+                    <li>Bash Scripting / Basic Server Management</li>
+                    <li>InVision / Adobe Illustrator / Adobe Photoshop</li>
+                </ul>
+            </section>
+            <section class="mt-12">
+                <h2 class="section-header"><span class="section-header-text">// Contact Me</span></h2>
+                <p class="ml-4">
+                    Please feel free to drop me an e-mail at:
+                    <a class="text-blue-800" href="mailto:asa0abbad@gmail.com">asa0abbad@gmail.com</a>
+                </p>
+            </section>
+            <section class="mt-12">
+                <div class="text-5xl w-full text-center animate-bounce">
+                    <a href="#">
+                        <i class="fas fa-chevron-circle-up oxford-blue"></i>
+                    </a>
+                </div>
+            </section>
+        </article>
+        <footer class="text-center mb-12 text-faded text-xs mt-12">
+            <div>Favicon made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </footer>
     </div>
-    <div class="shadow border w-64 mx-auto my-4 md:hidden">
-        <img src="public/img/profile.jpeg" alt="profile photo">
-    </div>
-    <article class="ml-2 md:ml-8">
-        <section class="md:w-2/3">
-            <h2 class="section-header"><span class="section-header-text">// About me</span></h2>
-            <p class="text-base ml-4 mb-6">
-                I am a software engineering mage; I love writing clean code and finding the best and easiest solution for
-                a technical problem.
-            </p>
-            <p class="text-base ml-4 mb-6">
-                My strongest focus is maintaining a clean code base with correctness, optimization and scalability at its core.
-            </p>
-            <p class="text-base ml-4 mb-6">
-                When I am not coding, I like to spend my time cooking, gaming or taking a walk in the park.
-            </p>
-        </section>
-        <section class="mt-12 md:w-2/3">
-            <h2 class="section-header"><span class="section-header-text">// Experience Timeline</span></h2>
-            <div class="grid grid-cols-2 my-4">
 
-                <!-- timeline entry left -->
-                <div class="pl-2 pr-8 relative text-right">
-                    <h3 class="text-4xl black mb-1">May 2021</h3>
-                    <h4 class="text-base text-black mb-1">
-                        <span class="bg-red-700 px-1 uppercase">Software Engineer</span>
-                    </h4>
-                    <p class="text-base">
-                        @ PricewaterhouseCoopers, Middle-east
-                    </p>
-                    <p class="text-base text-encore">
-                        At PwC, I have worked on two projects for a major client. As an early joiner to the project, I had a major role in developing the underlining enterprise software architecture. I developed and maintained APIs and code structure. I had a major role in developing their authentication logic as well as integrating persistence logic into their applications.
-                    </p>
-                    <p class="text-base">
-                        Java <span class="text-red-500">/</span> OSGI <span class="text-red-500">/</span> CMS <span class="text-red-500">/</span> AEM <span class="text-red-500">/</span> React
-                    </p>
-                    <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
-                </div>
-                <div class="border-l-2 border-red-700"></div>
-
-                <!-- timeline entry right -->
-                <div></div>
-                <div class="pr-2 pl-8 border-l-2 border-yellow-400 relative">
-                    <h3 class="text-4xl black mb-1">August 2019</h3>
-                    <h4 class="text-base text-black mb-1">
-                        <span class="bg-yellow-400 px-1 uppercase">Web Developer</span>
-                    </h4>
-                    <p class="text-base">
-                        @ Navitas Group, UK (remote)
-                    </p>
-                    <p class="text-base text-encore">
-                        My first full-time job was at Navitas where I had the chance to be part of a medium-sized team of around ~7 developers where we developed and maintained three major Navitas products.
-                    </p>
-                    <p class="text-base text-gray-500">
-                        Here I had a chance to work on production applications and see the challenges that arise in late stages of application development and ways to mitigate and improve the overall development experience.
-                    </p>
-                    <p class="text-base">
-                        PHP <span class="text-red-500">/</span> Laravel <span class="text-red-500">/</span> Codeigniter <span class="text-red-500">/</span> JavaScript <span class="text-red-500">/</span> Vue.js <span class="text-red-500">/</span> Node.js <span class="text-red-500">/</span> UIKit
-                    </p>
-                    <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
-                </div>
-
-                <!-- timeline entry left -->
-                <div class="pl-2 pr-8 relative text-right">
-                    <h3 class="text-4xl black mb-1">March 2019</h3>
-                    <h4 class="text-base text-black mb-1">
-                        <span class="bg-blue-400 px-1 uppercase">Software Engineering Intern</span>
-                    </h4>
-                    <p class="text-base">
-                        @ Atypon Systems, Amman, Jordan
-                    </p>
-                    <p class="text-base text-encore">
-                        As an intern in Atypon Systems, I had a chance to learn from
-                        talented developers the basics of clean code and production-
-                        level applications. Here I had a boot camp for OOP, SOLID
-                        principles, Big O, KISS, YAGNI, DRY.
-                    </p>
-                    <p class="text-base">
-                        OOP <span class="text-red-500">/</span> OOA&D <span class="text-red-500">/</span> SOLID <span class="text-red-500">/</span> KISS <span class="text-red-500">/</span> YAGNI <span class="text-red-500">/</span> DRY <span class="text-red-500">/</span> Java
-                    </p>
-                    <i class="absolute border-4 border-white rounded-full timeline-circle-right fas fa-circle"></i>
-                </div>
-                <div class="border-l-2 border-blue-400"></div>
-
-                <!-- timeline entry right -->
-                <div></div>
-                <div class="pr-2 pl-8 border-l-2 border-red-400 relative">
-                    <h3 class="text-4xl black mb-1">September 2014</h3>
-                    <h4 class="text-base text-black mb-1">
-                        <span class="bg-red-400 px-1 uppercase">Bsc Student</span>
-                    </h4>
-                    <p class="text-base">
-                        @ Jordan University Of Science and Technology
-                    </p>
-                    <p class="text-base text-encore">
-                        Bachelor of Science (BSc) in Computer Engineering with a GPA of 3.31
-                    </p>
-                    <i class="absolute border-4 border-white rounded-full timeline-circle-left fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-        <section class="mt-12">
-            <h2 class="section-header"><span class="section-header-text">// Technologies</span></h2>
-            <ul class="list-disc list-inside ml-8">
-                <li>OOP / SOLID / DRY / YAGNI / KISS</li>
-                <li>PHP / Laravel / Java / OSGI</li>
-                <li>Vue / JQuery / React</li>
-                <li>Tailwind / Bootstrap / Bulma / UIKit</li>
-                <li>Livewire / Lighthouse / BEM</li>
-                <li>Onion, MVC, Repository, Factories, Singleton, Observer ...</li>
-                <li>Git</li>
-                <li>SonarQube, PHPUnit / Docker / Composer / Redis / NPM / Yarn</li>
-                <li>Bash Scripting / Basic Server Management</li>
-                <li>InVision / Adobe Illustrator / Adobe Photoshop</li>
-            </ul>
-        </section>
-        <section class="mt-12">
-            <h2 class="section-header"><span class="section-header-text">// Contact Me</span></h2>
-            <p class="ml-4">
-                Please feel free to drop me an e-mail at:
-                <a class="text-blue-800" href="mailto:asa0abbad@gmail.com">asa0abbad@gmail.com</a>
-            </p>
-        </section>
-        <section class="mt-12">
-            <div class="text-5xl w-full text-center animate-bounce">
-                <a href="#">
-                    <i class="fas fa-chevron-circle-up oxford-blue"></i>
-                </a>
-            </div>
-        </section>
-    </article>
-    <footer class="text-center mb-12 text-faded text-xs mt-12">
-        <div>Favicon made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </footer>
+    <script src="./dist/termynal.min.js"></script>
+    <script src="./dist/main.min.js"></script>
 </body>
 </html>
