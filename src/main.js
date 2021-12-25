@@ -53,12 +53,13 @@ window.onload = function () {
                     { type: 'progress' },
                     { value: 'Successfully cloned repository 4xA.github.io' },
                     { value: '' },
-                    { type: 'input', value: 'cd ./4xA.github.io && xdg-open ./index.html &' },
-                    { typeDelay: 500, value: '' },
+                    { type: 'input', value: 'cd ./4xA.github.io && xdg-open ./index.html &' }
                 ],
                 callback: () => {
-                    hideTerminal();
-                    showMainContent();
+                    setTimeout(() => {
+                        hideTerminal();
+                        showMainContent();
+                    }, 1000);
                 }
             }
         )
